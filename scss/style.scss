@@ -1,0 +1,41 @@
+@import "null.scss";
+
+.page-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0px 0px 0px;
+}
+
+.items {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px 0px 50px 0px;
+	justify-content: center;
+	@media (min-width: 440px) {
+		max-width: 400px;
+	}
+}
+.items__brick {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	border: 1px solid white;
+	@media (min-width: 440px) {
+		width: 120px;
+		height: 120px;
+	}
+	font-size: 100px;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.restart-button {
+	font-size: 40px;
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+	padding: 10px 40px;
+}
